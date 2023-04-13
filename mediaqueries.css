@@ -1,0 +1,87 @@
+@media only screen and (min-width: 768px) {
+.navbar-mobile {
+    display: none;
+    }
+    
+    /* body.fixed-nav {
+    padding-top: 70px;
+    } */
+    nav.scrolled {
+    background-color: #fa1c04;
+    transition: all ease-out 1s;
+    opacity: 1;
+    }
+}
+@media only screen and (max-width: 768px) {
+    nav ul li {
+        display: none;
+    }
+    .nav-buttons {
+        display: none;
+    }
+    .header-text {
+        font-size: 21px;
+        padding: 150px 0px 0px 0px;
+    }
+    .nav-container {
+        height: 30rem;
+    }
+    nav {
+        justify-content: space-between;
+    }
+    .navbar-mobile .navbar-menu a  {
+        font-size: 20px;
+    }
+    .header-text h1 {
+        font-size: 35px;
+    }
+    .header-text h2 {
+        font-size: 20px;
+    }
+    .about-header, .menu-header, .slideshow-header {
+        font-size: 22px;
+    }
+    .menu-img-text h3 {
+        font-size: 19px;
+    }
+    .menu-img-text p {
+        font-size: 16px;
+    }
+    .btn-full-menu {
+        font-size: 14px;
+    }
+    .about-text {
+        margin: 0;
+        padding: 30px 0;
+        font-size: 16px;
+        line-height: 1.7rem;
+    }
+    .about p::first-letter {
+        font-size: 30px ;
+    }
+    .slideshow-container {
+        padding: 0;
+    }
+    .footer-section-1 {
+        flex-direction: column;
+        text-align: start;
+    }
+     .footer-section-1 p, .footer-section-1 li {
+        font-size: 12px;
+    }
+    .email-input {
+        padding: 7px;
+        margin-bottom: 1rem;
+        font-size: 12px;
+    }
+    .btn-submit {
+        font-weight: lighter;
+        font-family: 'Roboto', sans-serif;
+        padding: 6px 12px;
+        font-size: 6px;
+        border: none;
+    }
+    .copyright {
+        padding-bottom: 2rem;
+    }
+}
